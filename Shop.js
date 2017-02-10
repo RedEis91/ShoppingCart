@@ -86,3 +86,6 @@ shoppingCart.id = "shoppingCart";
 document.body.appendChild(shoppingCart);
 // gave our receiptPaper a background color of pink to differentiate it from the rest of the page
 shoppingCart.style = "background-color: pink;"
+
+
+var Rice = new 

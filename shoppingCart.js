@@ -53,3 +53,4 @@ function updateHTMLList(){
     });
 }
 
+var rice = new groceryListItem(Rice, 3.69);
