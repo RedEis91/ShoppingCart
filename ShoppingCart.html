@@ -6,9 +6,9 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
- <img src="http://i1.kym-cdn.com/photos/images/newsfeed/000/661/359/c6a.gif">
+ 
    <h1>Spidey's Shopping List</h1>
-   
+   <img src="http://i1.kym-cdn.com/photos/images/newsfeed/000/661/359/c6a.gif" id="spideyboy">
 <div id="List">
 <ul id="ShoppingList">
     
@@ -18,12 +18,12 @@
   
   <div class="formAndButtonToAddShoppingCartToList">
   <form action="#">
-  Item:<br>
+  Item name:<br>
   <input type="text" name="itemName"><br>
   Price:<br>
   <input type="text" name="itemPrice"><br><br>
   <!-- this.form passes the form object to the function addItemToCart assigned to the onclick event -->
-  <input type="button" value="Add to list" onclick="addItemToCart(this.form)">
+  <input type="button" value="Add to list+" onclick="addItemToCart(this.form)">
   </form>
   </div>
    

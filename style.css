@@ -1,8 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+
 body {
     background-color: red;
     color: royalblue;
+    font-family: "Barrio", sans-serif;
 }
 
 .formAndButtonToAddShoppingCartToList {
+    border: medium dashed royalblue;
+}
+
+input {
+     font-family: "Barrio", sans-serif;
+    font-size: 14px;
+}
+
+form {
+    color: black;
+    
+}
+li {color: black;
+font-size: 16px;}
+
+#spideyboy {
     border: medium dashed royalblue;
 }

@@ -37,7 +37,7 @@ function calculateTotal(){
 //totals up our number and adds it to the div with the ID of "yourGrandTotal", javascript was displaying this output as a string, so I added Number() method to render it as a number
        total += Number(items.price); 
        //used toFixed method to render the total with 2 decimal places, concaconated with a string to add the $
-       document.getElementById("yourGrandTotal").textContent = "$" + total.toFixed(2);
+       document.getElementById("yourGrandTotal").textContent = "TOTAL:     $" + total.toFixed(2);
                                              });
 }
 //created a function to update our HTML list with list items that we assign through the createElement method 
