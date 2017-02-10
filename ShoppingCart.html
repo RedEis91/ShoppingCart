@@ -7,12 +7,30 @@
 <body>
    
    <h1>Shopping List</h1>
-   <ul>
-       
-       
-   </ul>
    
-   <script type='text/javascript' language='javascript' src='Shop.js'> </script>
+<div id="List">
+<ul id="ShoppingList">
+    
+</ul>
+</div> 
+   
+  
+  <div class="formAndButtonToAddShoppingCartToList">
+  <form action="#">
+  Item:<br>
+  <input type="text" name="itemName"><br>
+  Price:<br>
+  <input type="text" name="itemPrice"><br><br>
+  <!-- this.form passes the form object to the function addItemToCart assigned to the onclick event -->
+  <input type="button" value="Add to list" onclick="addItemToCart(this.form)">
+  </form>
+  </div>
+   
+   <div id="yourGrandTotal">
+       
+   </div>
+
+   <script type='text/javascript' language='javascript' src='shoppingCart.js'> </script>
     
 </body>
 </html>

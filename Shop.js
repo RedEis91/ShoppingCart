@@ -80,3 +80,9 @@ receiptContainer.appendChild(displayTotal);
 
 //console.log("Your total is $" + total.toFixed(2));
 
+//created a div element called shoppingCart to contain our list and placed it within the body of our document. gave shoppingCart an id of receiptContainer and placed it within the body of the DOM using the appendChild method
+var shoppingCart = document.createElement("div");
+shoppingCart.id = "shoppingCart";
+document.body.appendChild(shoppingCart);
+// gave our receiptPaper a background color of pink to differentiate it from the rest of the page
+shoppingCart.style = "background-color: pink;"
